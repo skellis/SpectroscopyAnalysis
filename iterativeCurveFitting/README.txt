@@ -1,5 +1,5 @@
 iterateFitResFFT.py is the main operating file.
-You can optionally load the real data included in this file or generate dummyData which simulates a two dimensional excited state femtosecond stimulated Raman spectrum to operate on.
+You can optionally load the real data included in this file (RGTCNQTMB.txt is the Raman Gain Matrix as a function of time delay 'timepointsTCNQTMB' in fs and Raman shift 'shiftxTCNQTMB' in cm-1 or if you would rather nm 'nmshiftxTCNQTMB') or you can generate dummyData which simulates a two dimensional excited state femtosecond stimulated Raman spectrum to operate on.
 See https://pubs.acs.org/doi/abs/10.1021/jp5041986
 
 The operating file calls methods in init.py, fitfuncs.py and graphing.py
